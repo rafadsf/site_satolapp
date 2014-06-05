@@ -5118,9 +5118,9 @@ img.replacer, img.hideOnHover {
 
 #featured-app {
   overflow: hidden;
-  background-color: #D0F0CD;
+  background-color: #FFFFFF;
   z-index: 2; 
-  margin-top: 100px; }
+ }
   #featured-app .app-screenshot {
     position: relative;
     top: -30px;
