@@ -481,10 +481,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 select {
   display: block;
   outline: none;
-  width: 300px;
+  width: 545px;
   border: 1px solid #e7e7e7;
-  padding: 10px 5px 10px 10px;
-  margin: 0;
+  padding: 14px 5px 14px 10px;
+  margin: 1px 0 0 0;
   max-width: 100%;
   font-family: inherit;
   color: inherit;
@@ -1267,7 +1267,7 @@ since not everything will fit there */
     color: #bbb; }
 
 /*--------------------------------------------------------------------*/
-/*	Responsive Flex Slider Styles
+/*  Responsive Flex Slider Styles
 /*--------------------------------------------------------------------*/
 /* * jQuery FlexSlider v2.0 * http://www.woothemes.com/flexslider/ * */
 /* Browser Resets */
@@ -1548,7 +1548,7 @@ ol.flexlite-control-nav.flexlite-control-paging {
   display: none; }
 
 /*--------------------------------------------------------------------*/
-/*	OTHER SLIDERS - NIVO
+/*  OTHER SLIDERS - NIVO
 /*--------------------------------------------------------------------*/
 /* === The Nivo Slider styles - do not modify unless you know what you are doing == */
 /* === For customization, see below === */
@@ -5159,7 +5159,7 @@ img.replacer, img.hideOnHover {
     .features-list-alternate .row.last {
       margin-bottom: 0; }
   .features-list-alternate .iphone-slider-container, .features-list-alternate .ipad-slider-container {
-    margin-top: -350px; }
+    margin-top: -180px; }
     @media only screen and (max-width: 959px) {
       .features-list-alternate .iphone-slider-container, .features-list-alternate .ipad-slider-container {
         margin-top: 0; } }
@@ -5168,7 +5168,7 @@ img.replacer, img.hideOnHover {
       margin-bottom: 0; } }
 
 #home2-heading, #home3-heading {
-  padding: 60px 0 320px; }
+  padding: 60px 0 140px; }
   #home2-heading .heading2 h2, #home3-heading .heading2 h2 {
     background: #fe5000;
     background: rgba(254, 80, 0, 0.7); }
@@ -6473,4 +6473,11 @@ video {
 /*# sourceMappingURL=style.css.map */
 
 /*Edições*/
-#featured-in.page_section{ background: #F1F1F1;}
+#featured-in.page_section, #slogan.segment{ background: #F1F1F1;}
+.segment.dark-bg.parallax-background.parallax-banner{ padding: 200px 0!important;}
+
+/*Titulo*/
+h1.titulo { 
+   color:#FFFFFF;
+   font-size:48px;
+}
